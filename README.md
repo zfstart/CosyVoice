@@ -187,6 +187,8 @@ For advanced users, we have provided training and inference scripts in `examples
 Optionally, if you want service deployment,
 You can run the following steps.
 
+If you plan to integrate with Spring Boot, see `docs/springboot_tts_integration.md`.
+
 ``` sh
 cd runtime/python
 docker build -t cosyvoice:v1.0 .
